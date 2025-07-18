@@ -1,11 +1,8 @@
-/* 
-** General CSS 
-*/
 body {
       font-family: 'Roboto', sans-serif;
-      margin: 0;
-      padding: 0;
       background-color: #ffffff;
+      margin: 0px;
+      padding: 0px;
     }
 
     .bg-header {
@@ -29,34 +26,48 @@ body {
       border-radius: 20px;
     }
 
-    .roboto-text {
-      font-family: 'Roboto', sans-serif;
+    .tools-section {
+      text-align: center;
+      padding: 60px 20px;
     }
 
-    hr {
-      height: 2px;
-      background-color: #333;
-      opacity: 1;
+    .tools-section h1 {
+      font-weight: 700;
+      font-size: 40px;
+      margin-bottom: 20px;
     }
 
-    .bg-box {
-      background-color: #444;
-      border-radius: 20px;
-      transition: 0.3s;
+    .tools-section p {
+      font-size: 18px; 
+      color: #555;
+      margin-bottom: 50px;
     }
 
-    .bg-box:hover {
-      background-color: #555;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    .tool-card {
+      background: #f8f9fa;
+      border-radius: 12px;
+      padding: 20px;
+      transition: all 0.3s ease;
+      box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
     }
 
-    .img-fluid {
-      border-radius: 50%;
-      max-width: 250px;
+    .tool-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
     }
 
-    /* Responsive padding for container */
-    .container {
-      padding-left: 20px;
-      padding-right: 20px;
+    .tool-card img {
+      max-height: 80px;
+      object-fit: contain;
+      margin-bottom: 10px;
+    }
+
+    .tool-label {
+      font-weight: 600;
+      font-size: 16px; 
+      color: #222;
+    }
+
+    .row.g-4 {
+      justify-content: center;
     }
